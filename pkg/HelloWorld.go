@@ -1,5 +1,9 @@
 package main
 import "fmt"
 func main() {
-		fmt.Printf("hey hey world!\n")
+  var x int
+  var y *int
+  z := 3
+  y = &z
+  x = &y
 }
